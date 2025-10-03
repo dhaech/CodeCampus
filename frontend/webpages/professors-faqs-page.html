@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professor FAQs</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root {
+      --primary-color: #512BB2;
+      --background-color: #f4f4f9;
+      --footer-color: #4a24aa;
+      --footer-text: #fff;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--background-color);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      flex: 1;
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary-color);
+      margin-bottom: 30px;
+    }
+
+    .faq-item {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .faq-item h3 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .faq-item p {
+      margin: 10px 0 0;
+      color: #555;
+    }
+
+    footer {
+      background-color: var(--footer-color);
+      color: var(--footer-text);
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Professor FAQs</h1>
+
+    <div class="faq-item">
+      <h3>How do I create a new course?</h3>
+      <p>Hit the "Create Course" button, then fill in the course details to publish it.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I add activities with correct answers?</h3>
+      <p>Use the "Add Activities" tab beside a course to set the problem statement and test case.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How can I track students in a course?</h3>
+      <p>Click on the "Student" tab in a private course to see who joined and monitor their progress.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I monitor student performance?</h3>
+      <p>Yes, detailed analytics are available under the course dashboard to track student performance.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 University Portal. All rights reserved.
+  </footer>
+
+</body>
+</html>
